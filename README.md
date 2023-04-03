@@ -9,15 +9,18 @@ This project is intended to teach new Go users about creating simple CLI applica
 
 ## Usage
 * Help:
-```$ gitgo
+```
+$ gitgo
 Usage: gitgo [options]
 Options:
     -u, --user string
         Search Users
 ```
 
+
 * Single User Query:
-```$ gitgo -u chrisdaly3
+```
+$ gitgo -u chrisdaly3
 Searching user(s): [chrisdaly3]
 Username:               chrisdaly3
 Name:                   Chris Daly
@@ -27,8 +30,10 @@ Bio:            DevOps
 - GameDev
 ```
 
+
 * Multi-User Query:
-```$ gitgo -u chrisdaly3,pmbenjamin
+```
+$ gitgo -u chrisdaly3,pmbenjamin
 Searching user(s): [chrisdaly3 pmbenjamin]
 Username:               chrisdaly3
 Name:                   Chris Daly
